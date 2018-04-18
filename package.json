@@ -1,0 +1,28 @@
+{
+  "name": "express-simple-geoip",
+  "version": "0.1.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --no-timeouts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whois-api-llc/express-simple-geoip.git"
+  },
+  "keywords": [
+    "geoip",
+    "ip",
+    "ip",
+    "address",
+    "geolocation",
+    "express",
+    "middleware"
+  ],
+  "author": "Randall Degges",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/whois-api-llc/express-simple-geoip/issues"
+  },
+  "homepage": "https://github.com/whois-api-llc/express-simple-geoip#readme"
+}
