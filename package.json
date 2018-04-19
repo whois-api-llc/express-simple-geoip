@@ -1,6 +1,6 @@
 {
   "name": "express-simple-geoip",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "The simplest geolocation middleware for Express that sets location data on the request object.",
   "main": "index.js",
   "scripts": {

@@ -95,6 +95,10 @@ Pretty simple, right?!
 
 ## Changelog
 
+0.1.1: *04-18-2018*
+
+- Removing images from npm package.
+
 0.1.0: *04-18-2018*
 
 - First release!
