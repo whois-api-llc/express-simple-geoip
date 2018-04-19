@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+- '4'
+- '5'
+- '6'
+- '7'
+- '8'
+- lts/*
+env:
+  global:
+    secure: kvi1NI9N8FBO+4Sj7VlBmT/OneK5bGBzUWp6GvGeamyMISM7ALLQQxE17CRERbEINLxUs1zgfXc63lDwX0he95mOjvKSL7xpMzQomqIMLB93QJYvHawX8eKzbGVRjZ+h4RkheGcAih3NBSoDdctgwOPtEJIeZb1bmDNhVs6CrJNtl6GVwaBk/sS3y6ul++4EnAVc8TdRow8TkBecpFyTd69DOjhDuh8cxTWqGm+u9lRy7tlpB0FpcdUQ+EAl51dEICT24an3rsxlEMfi509pqYGEtgbm+239gAPdLDNWaKxmbQ5e9uo2yd4AC4uMHOBwnu/8fJ7eXWyrbbgs3eCk2XIHpkvsyVRN8tNebewovCC6eXZC1mJ8jK0j0eDNHrhfvpFHmiPx6aGMtcGD65btSYohKp1UJ+2YwpxwH0gZ6/5isvCGqi3GzAlIjOKklpf2JSkZNKObaSEpDGaVWAzQXZ1vZafEU71lnne4xDZJY7iu0L/T8q7BivmhvJjKuO9eJmITxBknA1tl2+bRlZYUDLvczL4xYsSn5N2Zrw92wCchtM7Z5tHO3LEEJGC5or+RfJznswqA7DQQTXG3yC6dJF0oXHOcANgF+E42xS2xpEBFwGiobbLFAjkbIX3bCzdNdYLtgsL5ZlnQZH+/rmHUZ7Npm4JjsqkeZRO3Y8lJAqs=
