@@ -27,5 +27,8 @@
   "homepage": "https://github.com/whois-api-llc/express-simple-geoip#readme",
   "dependencies": {
     "simple-geoip": "^0.1.0"
+  },
+  "devDependencies": {
+    "express": "^4.16.3"
   }
 }
