@@ -21,8 +21,8 @@ request object.*
 
 ## Prerequisites
 
-To use this library, you'll need to create a free GeoIPify account:
-https://geoipify.whoisxmlapi.com/
+To use this library, you'll need to create a free IP Geolocation account:
+https://ip-geolocation.whoisxmlapi.com/api
 
 If you haven't done this yet, please do so now.
 
@@ -49,14 +49,14 @@ you can use in your application in any number of ways.
 
 ```javascript
 const express = require("express");
-const simpleGeoIP = require("express-simple-geoip");
+const simpleIP = require("express-simple-geoip");
 
 let app = express();
 
-app.use(simpleGeoIP("your-api-key"));
+app.use(simpleIP("your-api-key"));
 
 app.get("/", (req, res) => {
-  console.log(req.geoip);   // print the incoming requester's geoip data
+  console.log(req.geoip);   // print the incoming requester's IP Geolocation data
   // ...
 });
 
@@ -80,12 +80,12 @@ on your inbound IP address*):
 ```
 
 This library is built on top of the excellent [node-simple-geoip](https://github.com/whois-api-llc/node-simple-geoip)
-library. It will automatically tack geoip data onto each incoming `req` object
+library. It will automatically tack IP Geolocation data onto each incoming `req` object
 as `req.geoip`.
 
 So all you need to do in your code is:
 
-1. Initialize the `simpleGeoIP` middleware, passing in your GeoIPify API key
+1. Initialize the `simpleIP` middleware, passing in your IP Geolocation API key
 2. Use the data found in `req.geoip`
 3. ???
 4. Profit!
